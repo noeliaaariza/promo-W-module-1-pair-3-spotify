@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Desktop/helloGit"
+		},
+		{
+			"path": "../../../Desktop/hello-git-noe"
+		},
+		{
+			"path": "../../carpetaprojectes/PROJECTES/Timing/2024/Movistar/emailings/entregas/emails"
+		},
+		{
+			"path": "../ejercicios-en-clase-w/modulo-1/leccion-01-mi-primera-web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "adalab"
+	}
+}
