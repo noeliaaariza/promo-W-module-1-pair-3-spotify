@@ -11,3 +11,12 @@ body {
     width: 144px;
     height: 139px;
 }
+
+.menu-icon{
+    width: 20px;
+    height: 20px;
+}
+.menu-button{
+    background: none;
+    border: none;
+}
