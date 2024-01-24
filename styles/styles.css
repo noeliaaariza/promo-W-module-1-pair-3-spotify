@@ -20,3 +20,11 @@ body {
     background: none;
     border: none;
 }
+.my-container {
+    border: solid 3px red;
+    background-color: blue;
+}
+.header-spotify {
+    background-color: black;
+    color: white;
+}
