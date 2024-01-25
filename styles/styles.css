@@ -11,6 +11,7 @@ body {
 .logo {
     width: 45px;
     height: 14px;
+    
 }
 
 .benefits {
@@ -36,6 +37,8 @@ body {
 .header-spotify {
     background-color: var(--background-color);
     color: var(--font-color);
+    height: 27px;
+    display: flex;
 }
 
 .menu-items {
@@ -64,11 +67,12 @@ body {
 .spotify-f {
     background-color: var(--background-color);
     color: var(--font-color);
-    height: 27px;
 }
 
 .menu-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
