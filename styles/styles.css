@@ -1,5 +1,11 @@
 body {
     background-color: #d0d0d0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --font-color: #fff;
+    --background-color: #000;
 }
 
 .logo {
@@ -22,9 +28,37 @@ body {
 }
 .my-container {
     border: solid 3px red;
-    background-color: blue;
+    
 }
 .header-spotify {
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.menu-items {
+    align-items: right;
+
+}
+
+.menu-items ul {
+    float: right;
+    
+}
+
+.menu-items ul li {
+    display: inline;
+    background-color: blueviolet;
+
+}
+
+.banner-chica {
+    background-image: url('../images/premium_dancer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.spotify-f {
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
