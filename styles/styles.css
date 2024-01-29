@@ -60,12 +60,13 @@ body {
 
 }
 
+.menu-principal{
+    display: none;
+}
+
 
 
 .banner-chica {
-   /* background-image: url('../images/premium_dancer.png');
-    background-position: center;
-    background-repeat: no-repeat;*/
     background-color: #529CF1;
     color: var(--font-color);
     padding: 65px 10px 25px 10px;
@@ -74,18 +75,21 @@ body {
 }
 
 .banner-chica h1 {
-    padding-bottom: 10px;
-    font-size: 25px;
+    padding-bottom: 20px;
+    font-size: 35px;
     font-weight: 900;
 }
 
 .banner-chica p {
     font-size: 14px;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 .banner-chica span {
     display: block;
     font-size: 9px;
+    font-weight: 900;
 }
 
 .spotify-f {
@@ -104,7 +108,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .btn-planes {
@@ -113,6 +117,52 @@ body {
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
     border: none;
-    
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;    
 }
 
+
+.btn-div a {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.btn-div a:visited{
+    color: #ffffff;
+}
+
+@media (min-width: 736px) {
+    
+    .menu-principal{
+        display: block;
+    }
+
+    .menu-icon{
+        display: none;
+    }
+
+    .banner-chica{
+    background-image: url('../images/premium_dancer.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    }
+
+    .btn-div{
+        width: 20%;
+    }
+
+    .banner-chica {
+        height: 535px;
+
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .banner-chica h1 {
+        font-size: 45px;
+    }
+
+}

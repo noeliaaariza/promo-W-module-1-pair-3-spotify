@@ -8,7 +8,10 @@
     <title>Ejercicio Spotify</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -18,21 +21,23 @@
             <button class="menu-button">
                 <img class="menu-icon" src="./images/menu-icon.png" alt="">
             </button>
-            <!--<ul>
+            <ul class="menu-principal">
                 <li>Premium</li>
                 <li>Ayuda</li>
                 <li>Descargar</li>
                 <li></li>
                 <li>Registrarse</li>
                 <li>Iniciar sesión</li>
-            </ul>-->
+            </ul>
         </nav>
     </header>
     <main class="my-container">
         <section class="banner-chica">
             <h1>Prueba Premium gratis 3 meses</h1>
             <p>Escucha millones de canciones sin anuncios, a la carta y sin conexión.</p>
-            <div class="btn-div"><button class="btn-planes" name="ver planes">VER PLANES</button></div>
+            <div class="btn-div">
+                <a class="btn-planes" href="#">VER PLANES</a>
+            </div>
             <span>Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya
                 hayan probado Premium.</span>
         </section>
