@@ -1,5 +1,55 @@
-.page__header {
+.header-spotify {
+  background-color: $background-color;
+  color: $font-color;
+  height: 35px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  position: sticky;
+  top: 0;
+}
+
+.menu-items {
+  align-items: right;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.logo {
+  width: 45px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.menu-button{
+  background: none;
+  border: none;
+  margin-right: 10px;
+}
+
+.menu-icon{
+  width: 12px;
+  height: 9px;
+    @media (min-width: 736px) {
+      display: none;
+    }
+}
+
+.menu-principal{
+  display: none;
+    @media (min-width: 736px) {
+      display: block;
+    }
+}
+
+.menu-items ul {
+  float: right;
+  
+}
+
+.menu-items ul li {
+  display: inline;
+  background-color: blueviolet;
+
 }

@@ -1,8 +1,8 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.my-container {
+  border: solid 3px red;
+}
+
+.spotify-f {
+  background-color: $background-color;
+  color: $font-color;
 }

@@ -1,0 +1,69 @@
+.banner-chica {
+  background-color: #529CF1;
+  color: $font-color;
+  padding: 65px 10px 25px 10px;
+    @media (min-width: 736px) {
+      background-image: url('../images/premium_dancer.png');
+      background-position: right;
+      background-repeat: no-repeat;
+      height: 535px;
+    }
+}
+
+.banner-chica h1 {
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 900;
+    @media (min-width: 1024px) {
+      font-size: 45px;
+    }
+}
+
+.banner-chica p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.banner-chica span {
+  display: block;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.btn-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+    @media (min-width: 736px) {
+      width: 20%;
+    }
+}
+
+.btn-planes {
+  background-color: #26B758;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;    
+}
+
+.btn-div a {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.btn-div a:visited{
+  color: #ffffff;
+}
+
+.benefits {
+  width: 144px;
+  height: 139px;
+}
+
