@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/sass,node,bower,macos
 
 #Folders to ignore
-version-0
+version-0/
 
 # Bower
 bower_components
