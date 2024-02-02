@@ -3,3 +3,26 @@
     height: 139px;
   }
   
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  .section__title{
+    grid-column: 1 / 3;
+    text-align: center;
+    font-size: 32px;
+      &--bold{
+        font-weight: 900;
+        margin-bottom: 10px;
+        line.¡-h
+      }
+  }
+
+  .benefits{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+  }
