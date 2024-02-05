@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/pages/form.scss">
     <title>Formulario</title>
 </head>
+
 <body>
-    <header>
-        <img class="logo" src="./images/logo-spotify.png" alt="Logotipo Spotify">
-        <h1>Regístrate gratis para escuchar.</h1>
-        <button>Registrarte con Facebook</button>
-        <button>Registrarte con Google</button>
+    <header class="header">
+        <img class="header__logo" src="../images/logo-spotify.png" alt="Logotipo Spotify">
+        <h1 class="header__h1">Regístrate gratis para escuchar.</h1>
+        <button class="header__facebookButton">Registrarte con Facebook</button>
+        <button class="header__googleButton">Registrarte con Google</button>
     </header>
     <div>
         <div class=""></div>
@@ -21,18 +24,21 @@
         <h2>Registrarte con tu correo electrónico</h2>
         <form action="https://dev.adalab.es/api/form" method="GET">
             <label for="email">¿Cuál es tu correo electrónico?</label>
-            <input type="email" id="email" name="email" placeholder="Pon tu correo electrónico." pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required/>
+            <input type="email" id="email" name="email" placeholder="Pon tu correo electrónico."
+                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required />
             <label for="email-confirm">Confirma el correo electrónico</label>
-            <input type="email" id="email-confirm" name="email-confirm" placeholder="Vuelve a poner tu correo electrónico." pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required/>
+            <input type="email" id="email-confirm" name="email-confirm"
+                placeholder="Vuelve a poner tu correo electrónico." pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+                required />
             <label for="password">Crea una contraseña</label>
-            <input type="password" id="password" name="password" placeholder="Crea una contraseña." required/>
+            <input type="password" id="password" name="password" placeholder="Crea una contraseña." required />
             <label for="user-name">¿Cómo quieres que te llamemos?</label>
-            <input type="text" id="user-name" name="user-name" placeholder="Pon tu nombre de perfil." required/>
+            <input type="text" id="user-name" name="user-name" placeholder="Pon tu nombre de perfil." required />
             <p>Esto aparece en tu perfil.</p>
             <fieldset>
                 <legend>¿Cuál es tu fecha de nacimiento?</legend>
                 <label for="day">Día</label>
-                <input type="number" id="day" name="day" placeholder="DD"/>
+                <input type="number" id="day" name="day" placeholder="DD" />
                 <label for="month">Mes</label>
                 <select name="month" id="month">
                     <option value="">Mes</option>
@@ -50,25 +56,28 @@
                     <option value="dic">Diciembre</option>
                 </select>
                 <label for="year">Año</label>
-                <input type="number" id="year" name="year" placeholder="AAAA"/>
+                <input type="number" id="year" name="year" placeholder="AAAA" />
             </fieldset>
             <fieldset>
                 <legend>¿Cuál es tu género?</legend>
-                <input type="radio" id="man" name="genre" value="man"/>
+                <input type="radio" id="man" name="genre" value="man" />
                 <label for="man">Hombre</label>
-                <input type="radio" id="woman" name="genre" value="woman"/>
+                <input type="radio" id="woman" name="genre" value="woman" />
                 <label for="woman">Mujer</label>
-                <input type="radio" id="no-bina" name="genre" value="no-bina"/>
+                <input type="radio" id="no-bina" name="genre" value="no-bina" />
                 <label for="no-bina">No binario</label>
             </fieldset>
-            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter-yes"/>
+            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter-yes" />
             <label for="newsletter">Quiero que me enviéis noveades y ofertas de Spotify</label>
-            <input type="checkbox" id="privacy" name="privacy" value="privacy-yes"/>
-            <label for="privacy">Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra Política de Privacidad.</label>
+            <input type="checkbox" id="privacy" name="privacy" value="privacy-yes" />
+            <label for="privacy">Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines
+                de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como
+                se recoge en nuestra Política de Privacidad.</label>
             <button type="submit">Registrarte</button>
-      </form>
-      <p>¿Ya tienes cuenta?<a href="#">Inicia sesión</a>.</p>
-      
+        </form>
+        <p>¿Ya tienes cuenta?<a href="#">Inicia sesión</a>.</p>
+
     </main>
 </body>
+
 </html>
